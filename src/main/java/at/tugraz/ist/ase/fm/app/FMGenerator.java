@@ -36,8 +36,13 @@ import java.util.List;
  * Generates synthesized feature models using the Betty framework.
  * For further details on Betty framework, we refer to https://www.isa.us.es/betty/welcome
  *
+ * The number of features in each generated feature model is specified by the following formula:
+ * numFeatures = numConstraints * 3 / 4;
+ *
  * for numFeatures < 10, using Random generation
  * for numFeatures >= 10, using an evolutionary generator
+ *
+ * Generated feature models are saved using the SPLOT format (http://www.splot-research.org).
  */
 public class FMGenerator {
 
