@@ -1,5 +1,7 @@
 # Synthesized Feature Model Generator
 
+*Migrated to [https://github.com/manleviet/CA-CDR-V2](https://github.com/manleviet/CA-CDR-V2)*
+
 This tool generates synthesized feature models using the Betty framework. For further details on Betty framework, we refer to [https://www.isa.us.es/betty/welcome](https://www.isa.us.es/betty/welcome).
 
 ### Parameters
